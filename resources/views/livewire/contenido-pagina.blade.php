@@ -1,4 +1,6 @@
 <div>
+    <hr id="nosotros" class="border-solid border-2 border-light-blue-500 mt-20"> 
+    
     <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 mt-20">
         <img class="float-right" src="https://cdn.pixabay.com/photo/2016/06/05/14/11/dentist-1437413_960_720.jpg" alt="">
         <span class="text-justify text-xl"><br>
@@ -13,10 +15,13 @@
         </span>
     </div>
     
-    <hr class="border-solid border-2 border-light-blue-500 mt-20"> 
-        
+
+
+    <hr id="servicios" class="border-solid border-2 border-light-blue-500 mt-20"> 
+      
+
     <!-----------------------------------SECCION DE SERVICIOS----------------------------->
-        <div class="container mx-auto mt-36">
+        <div  class="container mx-auto mt-36">
             <h1 class="text-6xl text-center mb-12">Nuestros Servicios Dentales</h1>
         
             <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 text-center  ">    
@@ -81,6 +86,5 @@
         </div>  
         
         
-        <hr class="border-solid border-2 border-light-blue-500 mt-20"> 
     </div>
 </div>

@@ -1,5 +1,8 @@
 <div>
-    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 mt-48">
+
+    <hr id="acercaDe" class="border-solid border-2 border-light-blue-500 mt-20"> 
+    
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 mt-36">
         <img class="float-right" src="https://cdn.pixabay.com/photo/2018/03/27/00/50/adult-3264740_960_720.jpg" alt="">
         <span class="text-justify text-xl"><br>
             <h1 class="text-6xl mb-5">Acerca de</h1>
@@ -16,5 +19,5 @@
             </p>
         </span>
     </div>
-    <hr class="border-solid border-2 border-light-blue-500 mt-20"> 
+    
 </div>

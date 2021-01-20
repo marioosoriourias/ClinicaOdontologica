@@ -17,24 +17,6 @@ Route::get('/', function () {
     return view('inicio.index');
 })->name('inicio');
 
-Route::get('/nosotros', function () {
-    return view('inicio.index');
-})->name('nosotros');
-
-Route::get('/servicios', function () {
-    return view('inicio.index');
-})->name('servicios');
-
-Route::get('/acerca', function () {
-    return view('inicio.index');
-})->name('acerca');
-
-Route::get('/landing-page', function () {
-    return view('inicio.index');
-})->name('landing-page');
-
-
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
