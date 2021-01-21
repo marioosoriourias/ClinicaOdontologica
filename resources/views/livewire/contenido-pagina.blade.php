@@ -26,7 +26,7 @@
             <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 px-5 text-justify text-xl">    
                 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 0)}}">    
+                    <a href="{{route('servicios', 'examen-bucodental-inicial')}}">    
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60  mx-auto ">
                         <figcaption class="font-bold">Examen Bucodental Inicial</figcaption>
                         <p class="text-justify">
@@ -36,7 +36,7 @@
                 </div>
    
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 1)}}">    
+                    <a href="{{route('servicios', 'procedimientos-de-obturacion-o-llenado-dental')}}">    
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Procedimientos de obturación o llenado dental</figcaption>
                         <p class="text-justify">
@@ -46,7 +46,7 @@
                 </div>
                 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 2)}}">
+                    <a href="{{route('servicios', 'extracciones-dentales')}}">
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Extracciones dentales</figcaption>
                         <p class="text-justify">
@@ -56,7 +56,7 @@
                 </div>
 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 3)}}">
+                    <a href="{{route('servicios', 'ortodoncia')}}">
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Ortodoncia</figcaption>
                         <p class="text-justify">
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 4)}}">
+                    <a href="{{route('servicios', 'tratamientos-de-blanqueamiento')}}">
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Tratamientos de blanqueamiento</figcaption>
                         <p class="text-justify">
@@ -77,7 +77,7 @@
 
 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 5)}}">
+                    <a href="{{route('servicios', 'puentes-dentales')}}">
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Puentes dentales</figcaption>
                         <p class="text-justify">
@@ -88,7 +88,7 @@
 
 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 6)}}">
+                    <a href="{{route('servicios', 'tratamientos-de-nervio')}}">
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Tratamientos de nervio</figcaption>
                         <p class="text-justify">
@@ -99,7 +99,7 @@
 
 
                 <div class="hover:bg-indigo-100">
-                    <a href="{{route('servicios', 7)}}">
+                    <a href="{{route('servicios', 'carillas-dentales')}}">
                         <img src="https://cdn.pixabay.com/photo/2018/05/20/00/29/teeth-3414722_960_720.png" alt="" class="w-60 mx-auto">
                         <figcaption class="font-bold">Carillas dentales</figcaption>
                         <p class="text-justify">

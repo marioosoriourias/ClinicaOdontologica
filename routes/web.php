@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('inicio.index');
 })->name('inicio');
 
-Route::get('servicios/{id}', [DetalleServicios::class, 'index'])->name('servicios');
+Route::get('servicios/{servicio}', [DetalleServicios::class, 'index'])->name('servicios');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
