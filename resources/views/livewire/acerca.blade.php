@@ -4,8 +4,9 @@
     
     <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 mt-36">
         <img class="float-right" src="https://cdn.pixabay.com/photo/2018/03/27/00/50/adult-3264740_960_720.jpg" alt="">
-        <span class="text-justify text-xl"><br>
-            <h1 class="text-6xl mb-5">Acerca de</h1>
+        <span class=" px-5 text-justify text-xl"><br>
+            <h1 class="text-4xl md:text-5xl text-center mb-12">Acerca de</h1>
+            
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione expedita impedit odio eos tenetur perferendis totam aspernatur. Voluptatibus vel quod quaerat facere quae, excepturi a ea ipsa! Voluptate, necessitatibus!, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dicta voluptatum natus a rem magnam expedita laudantium quasi debitis eveniet. 
             </p>

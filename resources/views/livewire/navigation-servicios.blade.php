@@ -35,11 +35,11 @@
             <div class="flex justify-around space-x-4 h-full ">
               
               <div class="clear-left"></div>
-              <a href="#inicio" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>Inicio</a>
-              <a href="#nosotros" class='hover:bg-indigo-200  px-3 py-2 rounded-md  font-medium m-auto text-xl'>Nosotros</a>
-              <a href="#servicios" class='hover:bg-ginbg-indigo-200 px-3 py-2 rounded-md font-medium m-auto text-xl'>Servicios</a>
-              <a href="#acercaDe" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>Acerca de</a> 
-              <a href="#ubicacion" class='hover:bg-indigo-200 px-3 py-2 rounded-md  font-medium m-auto text-xl'>Ubicación</a>    
+              <a href="{{route('inicio')}}" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>Inicio</a>
+              <a href="{{route('inicio')}}/#nosotros" class='hover:bg-indigo-200  px-3 py-2 rounded-md  font-medium m-auto text-xl'>Nosotros</a>
+              <a href="{{route('inicio')}}/#servicios" class='hover:bg-ginbg-indigo-200 px-3 py-2 rounded-md font-medium m-auto text-xl'>Servicios</a>
+              <a href="{{route('inicio')}}/#acercaDe" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>Acerca de</a> 
+              <a href="{{route('inicio')}}/#ubicacion" class='hover:bg-indigo-200 px-3 py-2 rounded-md  font-medium m-auto text-xl'>Ubicación</a>    
             </div>
           </div>
         </div>  
@@ -56,11 +56,11 @@
     <div class=" sm:hidden" x-show="open" x-on:click.away = "open=false">
       <div class="px-2 pt-2 pb-3 space-y-1 bg-">
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <a href="#inicio" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
-        <a href="#nosotros" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Nosotros</a>
-        <a href="#servicios" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
-        <a href="#acercaDe" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca de</a>
-        <a href="#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Ubicación</a>
+        <a href="{{route('inicio')}}" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Inicio</a>
+        <a href="{{route('inicio')}}/#nosotros" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Nosotros</a>
+        <a href="{{route('inicio')}}/#servicios" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
+        <a href="{{route('inicio')}}/#acercaDe" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca de</a>
+        <a href="{{route('inicio')}}/#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Landing Page</a>
       </div>
     </div>
   </nav>
