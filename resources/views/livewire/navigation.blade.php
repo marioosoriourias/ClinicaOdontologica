@@ -61,6 +61,16 @@
         <a href="#servicios" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
         <a href="#acercaDe" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca de</a>
         <a href="#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Ubicación</a>
+        <div class="py-2">
+          <span class="py-1 pl-2 ">40 Park Ave, Brooklyn, New York 70250</span><br>
+          <span class="py-1 pl-2">Call Us: 1-800-111-2222</span><br>
+          <span class="py-1 pl-2">Open Hours: Mn - Fr: 9:00AM - 5:00PM</span>
+        </div>
+        <div>
+            <img class="w-10 h-10 my-auto mx-1 inline-block" src="{{asset('imgs/icons/facebookLogo.png')}}" alt="">
+            <img class="w-10 h-10 my-auto mx-1 inline-block" src="{{asset('imgs/icons/twitterLogo.png')}}" alt="">
+            <img class="w-10 h-10 my-auto mx-1 inline-block" src="{{asset('imgs/icons/instagramLogo.png')}}" alt="">
+        </div>
       </div>
     </div>
   </nav>

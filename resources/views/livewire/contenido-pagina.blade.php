@@ -1,7 +1,7 @@
 <div>
-    <hr id="nosotros" class="border-solid border-2 border-light-blue-500 mt-20"> 
+    <hr id="nosotros" class="border-solid border-2 border-light-blue-500 mt-10  md:mt-20"> 
     
-    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 mt-20">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 gap-1 mt-10 md:mt-20">
         <img class="float-right" src="https://cdn.pixabay.com/photo/2016/06/05/14/11/dentist-1437413_960_720.jpg" alt="">
         <span class="px-5 text-justify text-xl"><br>
             <h1 class="text-4xl md:text-5xl mb-5">Bienvenid@ a la clinica dental</h1>
@@ -15,8 +15,6 @@
         </span>
     </div>
     
-
-    <x-detalle-servicios/>
 
     <hr id="servicios" class="border-solid border-2 border-light-blue-500 mt-20"> 
       

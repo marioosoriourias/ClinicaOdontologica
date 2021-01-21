@@ -60,7 +60,7 @@
         <a href="{{route('inicio')}}/#nosotros" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Nosotros</a>
         <a href="{{route('inicio')}}/#servicios" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Servicios</a>
         <a href="{{route('inicio')}}/#acercaDe" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Acerca de</a>
-        <a href="{{route('inicio')}}/#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Landing Page</a>
+        <a href="{{route('inicio')}}/#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Ubicación</a>
       </div>
     </div>
   </nav>
