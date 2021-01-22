@@ -17,7 +17,16 @@
                 <tr>
                     <th><a class="" href="{{route('inicio')}}"><img class="w-16" src="{{asset('imgs/icons/logo.png')}}" /></a></th>
                     <th><span class="bg-red hidden sm:block">40 Park Ave, Brooklyn,<br>New York 70250</span></th>
-                    <th><span class="bg-red hidden sm:block">Call Us <br> 1-800-111-2222</span></th>
+                    <th>         
+                        <!-- This example requires Tailwind CSS v2.0+ -->
+
+                        <select id="idioma" type="dropdown-toggle" class="form-control" name="apports" onchange="top.location.href = this.options[this.selectedIndex].value">
+                            <option value="choisir" selected disabled>Idioma</option>                      
+                            <option class="apports" value="{{route('language','es')}}">Español</option>
+                            <option class="apports" value="{{route('language','en')}}">Ingles</option>
+                        </select>
+
+                    </th>
                     <th><span class="bg-red hidden sm:block">Open Hours <br> Mn - Fr: 9:00AM - 5:00PM</span></th>
                     <th>
                         <div>

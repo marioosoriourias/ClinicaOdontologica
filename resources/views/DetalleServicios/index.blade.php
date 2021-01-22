@@ -17,8 +17,8 @@
     
     <livewire:navigation-servicios>
     
-    
-    <h1 class="text-3xl md:text-4xl text-center  mt-8 md:mt-24">{{$servicio[0]}}</h1>
+
+    <h1 class="text-3xl md:text-4xl text-center  mt-8 md:mt-24">{{trans('multi-leng.'.$servicio[0])}}</h1>
     
     <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-1 mt-6 md:mt-20">
         <img class="float-right" src="{{$servicio[2]}}" alt="">

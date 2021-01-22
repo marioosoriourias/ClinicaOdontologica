@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DetalleServicios;
+use Illuminate\Support\Facades\Session;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +17,14 @@ use App\Http\Controllers\DetalleServicios;
 
 Route::get('/', function () {
     return view('inicio.index');
-})->name('inicio');
+})->middleware('translate')->name('inicio');
 
-Route::get('servicios/{servicio}', [DetalleServicios::class, 'index'])->name('servicios');
+Route::get('servicios/{servicio}', [DetalleServicios::class, 'index'])->middleware('translate')->name('servicios');
+
+Route::get('/lang/{language}', function ($language) {
+    Session::put('language',$language);
+    return redirect()->back();
+})->name('language');
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
