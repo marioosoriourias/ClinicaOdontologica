@@ -15,7 +15,7 @@
         <table class="table w-full">
             <thead>
                 <tr>
-                    <th><a class="" href="{{route('inicio')}}"><img class="w-16" src="{{asset('imgs/icons/logo.png')}}" /></a></th>
+                    <th><a class="" href="{{route('inicio')}}"><img class="w-48" src="{{asset('imgs/icons/LogoWeb.png')}}" /></a></th>
                     <th><span class="bg-red hidden sm:block">40 Park Ave, Brooklyn,<br>New York 70250</span></th>
                     <th>         
                         <!-- This example requires Tailwind CSS v2.0+ -->
