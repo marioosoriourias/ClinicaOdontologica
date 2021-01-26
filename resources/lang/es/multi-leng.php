@@ -1,5 +1,6 @@
 <?php
 return [
+    'idioma' => 'espanol',
     'title-application' => 'Clinica Odontolodica',
     'subTitle-application' => '¡Hola mundo clinica odontologica!',
     'inicio' => 'Inicio',
@@ -9,14 +10,15 @@ return [
     'ubicacion' => 'Ubicación',
     'mensaje-inicio' => 'Bienvenid@ a la clinica dental',
     'mensaje-servicios' => 'Nuestros servicios dentales',
-    'examen-bucodental-inicial' => 'Examen bucodental inicial',
-    'procedimientos-de-obturacion-o-llenado-dental' =>  'Procedimientos de obturacion o llenado dental',
-    'extracciones-dentales' => 'Extracciones dentales',
-    'ortodoncia' =>  'Ortodoncia',    
-    'tratamientos-de-blanqueamiento' =>  'Tratamientos de blanqueamiento',
-    'puentes-dentales' => 'Puentes dentales',
-    'tratamientos-de-nervio' => 'Tratamientos de nervio',
-    'carillas-dentales' => 'Carillas dentales'
+    
+    'ortodoncia' => 'Ortodoncia',
+    'implantes-dentales' =>  'Implantes dentales',
+    'tratamiento-temporomandibular' => 'Tratamiento temporomandibular',
+    'endodoncia' => 'Endodoncia',
+    'odontologia-pediatrica' =>'Odontología pediátrica',
+    'odontologia-estetica' => 'Odontología estética',
+    'blanqueamiento-dental' => 'Blanqueamiento dental',
+    'rayos-x' => 'Rayos X'
 
 
 ];

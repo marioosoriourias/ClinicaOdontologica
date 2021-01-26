@@ -1,5 +1,6 @@
 <?php
 return [
+    'idioma' => 'ingles',
     'title-application' => 'Clinica Odontolodica',
     'subTitle-application' => '¡Hola mundo clinica odontologica!',
     'inicio' => 'Home',
@@ -9,12 +10,14 @@ return [
     'ubicacion' => 'Location' ,
     'mensaje-inicio' => 'Welcome to the dental clinic',
     'mensaje-servicios' => 'Our Dental Services',
-    'examen-bucodental-inicial' => 'Initial Oral Exam',
-    'procedimientos-de-obturacion-o-llenado-dental' =>  'Dental filling or filling procedures',
-    'extracciones-dentales' => 'Dental extractions',
-    'ortodoncia' =>  'Orthodontics',    
-    'tratamientos-de-blanqueamiento' =>  'Whitening Treatments',
-    'puentes-dentales' => 'Dental Bridges',
-    'tratamientos-de-nervio' => 'Nerve Treatments',
-    'carillas-dentales' => 'Dental Veneers'
+        
+    'ortodoncia' => 'Orthodontics',
+    'implantes-dentales' =>  'Dental implants',
+    'tratamiento-temporomandibular' => 'TMJ treatment',
+    'endodoncia' => 'Endodontics',
+    'odontologia-pediatrica' =>'Pediatric dentistry',
+    'odontologia-estetica' => 'Cosmetic dentistry',
+    'blanqueamiento-dental' => 'Dental whitening',
+    'rayos-x' => 'Digital X-rays'
+    
 ];
