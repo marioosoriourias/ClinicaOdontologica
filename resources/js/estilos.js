@@ -15,6 +15,9 @@ $(document).ready(function() {
         var index = $(this).index() + 1;
         currentSlide(index);
     });
+
+
+    
 /*-------------------------- ANIMACION DEL SLIDER -------------------------------*/
     var slideIndex = 1;
     showSlides(slideIndex);

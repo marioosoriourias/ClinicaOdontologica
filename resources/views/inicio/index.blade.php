@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="stylesheet" href="{{mix('css/estilos.css')}}">
     <link rel="icon" href="{{asset('imgs/icons/Favicon.png')}}">
-   
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/jquery.hoverIntent.min.js')}}"></script>
 
 
