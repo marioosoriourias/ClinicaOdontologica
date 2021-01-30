@@ -7,6 +7,8 @@ return [
     'nosotros' => 'Us',
     'servicios' => 'Services',
     'acerca-de' => 'About',
+    'clientes' => 'Our Clients',
+
     'ubicacion' => 'Location' ,
     'mensaje-inicio' => 'Welcome to the dental clinic',
     'mensaje-servicios' => 'Our Dental Services',

@@ -38,7 +38,7 @@
               <a href="{{route('inicio')}}" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.inicio')}}</a>
               <a href="{{route('inicio')}}/#nosotros" class='hover:bg-indigo-200  px-3 py-2 rounded-md  font-medium m-auto text-xl'>{{trans('multi-leng.nosotros')}}</a>
               <a href="{{route('inicio')}}/#servicios" class='hover:bg-ginbg-indigo-200 px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.servicios')}}</a>
-              <a href="{{route('inicio')}}/#acercaDe" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.acerca-de')}}</a> 
+              <a href="{{route('inicio')}}/#clientes" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.clientes')}}</a> 
               <a href="{{route('inicio')}}/#ubicacion" class='hover:bg-indigo-200 px-3 py-2 rounded-md  font-medium m-auto text-xl'>{{trans('multi-leng.ubicacion')}}</a>    
             </div>
           </div>
@@ -59,7 +59,7 @@
         <a href="{{route('inicio')}}" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.inicio')}}</a>
         <a href="{{route('inicio')}}/#nosotros" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.nosotros')}}</a>
         <a href="{{route('inicio')}}/#servicios" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.servicios')}}</a>
-        <a href="{{route('inicio')}}/#acercaDe" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.acerca-de')}}</a>
+        <a href="{{route('inicio')}}/#clientes" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.clientes')}}</a>
         <a href="{{route('inicio')}}/#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.ubicacion')}}</a>
       </div>
     </div>
