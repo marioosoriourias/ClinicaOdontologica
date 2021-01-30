@@ -10,8 +10,9 @@ $(document).ready(function () {
   setTimeout(function () {
     $(".textoVideo2").fadeIn(1500);
   }, 3000);
-  $(".olis").click(function () {
-    alert("asdasdasdasdsadsad");
+  $('.dots').children('.dot').click(function () {
+    var index = $(this).index() + 1;
+    currentSlide(index);
   });
   /*-------------------------- ANIMACION DEL SLIDER -------------------------------*/
 

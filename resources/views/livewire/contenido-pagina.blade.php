@@ -2,8 +2,8 @@
     <hr id="nosotros" class="border-solid border-2 border-light-blue-500 mt-10  md:mt-20"> 
     
     <div class="container mx-auto grid grid-cols-2  gap-5 mt-10 md:mt-20">
-        <img class="" src="{{asset('imgs/bienvenido.jpg')}}" alt="">
-        <img class="" src="{{asset('imgs/bienvenido2.jpg')}}" alt="">
+        <img class="" src="{{asset('imgs/bienvenido-1.jpg')}}" alt="">
+        <img class="" src="{{asset('imgs/bienvenido-2.jpg')}}" alt="">
         <span class="px-5 text-justify text-xl col-span-2"><br>
             <h1 class="text-4xl md:text-5xl mb-5 text-center">{{trans('multi-leng.mensaje-inicio')}}</h1>
             <p>
@@ -95,8 +95,6 @@
                         </a>
                     </div>
                 </div>
-
-
 
 
 
