@@ -39,7 +39,7 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
   
     <!-- Código de instalación Cliengo para conkers_65@hotmail.com --> 
-    <script src="{{mix('js/estilos.js')}}"></script>
+    <script src="{{asset('js/estilos.js')}}"></script>
 
 </body>
 </html>
