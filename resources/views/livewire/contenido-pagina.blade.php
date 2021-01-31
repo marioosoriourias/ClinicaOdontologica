@@ -1,33 +1,37 @@
 <div>
     <hr id="nosotros" class="border-solid border-2 border-light-blue-500 mt-10  md:mt-20"> 
     
+
+    <span id="nosotrosImg"></span>
     <div class="container mx-auto grid grid-cols-2  gap-5 mt-10 md:mt-20">
-        <img class="" src="{{asset('imgs/bienvenido-1.jpg')}}" alt="">
-        <img class="" src="{{asset('imgs/bienvenido-2.jpg')}}" alt="">
-        <span class="px-5 text-justify text-xl col-span-2"><br>
-            <h1 class="text-4xl md:text-5xl mb-5 text-center">{{trans('multi-leng.mensaje-inicio')}}</h1>
-            <p>
+            <img class="show hidden" src="{{asset('imgs/bienvenido-1.jpg')}}" alt="">
+            <img class="show hidden" src="{{asset('imgs/bienvenido-2.jpg')}}" alt="">
+
+        
+            <span id="nosotrosDesc" class="px-5 text-justify text-xl col-span-2"><br>
+            <h1 class="nosotrostext text-4xl md:text-5xl mb-5 text-center hidden">{{trans('multi-leng.mensaje-inicio')}}</h1>
+            <p class="nosotrostext hidden">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ratione expedita impedit odio eos tenetur perferendis totam aspernatur. Voluptatibus vel quod quaerat facere quae, excepturi a ea ipsa! Voluptate, necessitatibus!, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dicta voluptatum natus a rem magnam expedita laudantium quasi debitis eveniet. 
             </p>
             <br>
-            <p>
+            <p class="nosotrostext hidden">
                 labore vero. Illo suscipit tempore officia! Animi, esse officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis corrupti corporis quibusdam facere rerum! Molestiae hic voluptates obcaecati officia. Tenetur illo atque a eos, quos temporibus est. Minima, iure recusandae.
             </p>
         </span>
     </div>
     
 
-    <hr id="servicios" class="border-solid border-2 border-light-blue-500 mt-20"> 
-      
+    <span id="ServiciosImg"></span>
+    <hr id="servicios" class="border-solid border-2 border-light-blue-500 mt-20 "> 
+   
     <!-----------------------------------SECCION DE SERVICIOS----------------------------->
-        <div  class="container mt-14 mx-auto md:mt-36">
+        <div  id="ServiciosText" class="container mt-14 mx-auto md:mt-36 hidden">
             
             <h1 class="text-4xl md:text-5xl text-center mb-12">{{trans('multi-leng.mensaje-servicios')}}</h1>   
             
             
             <div class="grid sm:grid-cols-2  lg:grid-cols-3 gap-8 px-5 text-justify text-xl">                  
-                
-                
+                           
                 <div class="pb-7">  
                     <div class="bg-blue-400 h-14 w-full border-black border-2">  
                         <h1 class="text-2xl text-center">{{trans('multi-leng.ortodoncia')}}</h1>

@@ -15,7 +15,9 @@
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/jquery.hoverIntent.min.js')}}"></script>
 
+    <style>
 
+    </style>
 </head>
 <body class="overscroll-auto">
     <livewire:header>
@@ -38,7 +40,12 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
   
     <!-- Código de instalación Cliengo para conkers_65@hotmail.com --> 
-    <script src="{{asset('js/estilos.js')}}"></script>
+    <script src="{{mix('js/estilos.js')}}"></script>
+
+    <script>
+
+
+</script>
 
 </body>
 </html>

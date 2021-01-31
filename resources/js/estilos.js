@@ -61,8 +61,52 @@ $(document).ready(function() {
         imagen.fadeIn();   
     });
 
-
-
-   
-
 });
+
+
+window.onload = function() {
+
+    $(window).scroll(function(){
+        var NosotrosImg = $("#nosotrosImg").offset().top;
+        var NosotrosDesc = $("#nosotrosDesc").offset().top;
+        var ServiciosImg = $("#ServiciosImg").offset().top;
+        var AcercaImg = $("#AcercaImg").offset().top;
+        var AcercaDesc = $("#AcercaDesc").offset().top;
+        var ClientesImg = $("#ClientesImg").offset().top;
+        //var ClientesDesc = $("#ClientesDesc").offs
+        
+        var scrollTop = $(window).scrollTop()
+        
+  
+        if(scrollTop > NosotrosImg -300){
+            $(".show").slideDown('slow');
+        }
+  
+  
+        if(scrollTop > NosotrosDesc -300){
+            $(".nosotrostext").fadeIn(1000);
+        }
+  
+        if(scrollTop > ServiciosImg -300){
+            $("#ServiciosText").show(2000);
+        }
+  
+        if(scrollTop > AcercaImg - 300){
+            $(".showAcerca").show(2000);
+        }
+  
+        if(scrollTop > AcercaDesc - 300){
+            $(".AcercaText").show(2000);
+        }
+  
+        if(scrollTop > ClientesImg - 300){
+            $("#ClientesDesc").show(2000);
+        }
+  
+        if(scrollTop > ClientesImg - 300){
+            $("#ClientesText").show(2000);
+        }     
+  });
+  }
+  
+  
