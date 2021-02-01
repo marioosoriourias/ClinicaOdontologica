@@ -77,7 +77,7 @@ window.onload = function () {
     var scrollTop = $(window).scrollTop();
 
     if (scrollTop > NosotrosImg - 300) {
-      $(".show").slideDown('slow');
+      $(".show").fadeIn('slow');
     }
 
     if (scrollTop > NosotrosDesc - 300) {
@@ -85,23 +85,23 @@ window.onload = function () {
     }
 
     if (scrollTop > ServiciosImg - 300) {
-      $("#ServiciosText").show(2000);
+      $("#ServiciosText").fadeIn(2000);
     }
 
     if (scrollTop > AcercaImg - 300) {
-      $(".showAcerca").show(2000);
+      $(".showAcerca").fadeIn(2000);
     }
 
     if (scrollTop > AcercaDesc - 300) {
-      $(".AcercaText").show(2000);
+      $(".AcercaText").fadeIn(2000);
     }
 
     if (scrollTop > ClientesImg - 300) {
-      $("#ClientesDesc").show(2000);
+      $("#ClientesDesc").fadeIn(2000);
     }
 
     if (scrollTop > ClientesImg - 300) {
-      $("#ClientesText").show(2000);
+      $("#ClientesText").fadeIn(2000);
     }
   });
 };
