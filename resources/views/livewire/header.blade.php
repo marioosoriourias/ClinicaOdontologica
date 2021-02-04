@@ -15,10 +15,10 @@
         <table class="table w-full">
             <thead>
                 <tr>
-                    <th><a class="" href="{{route('inicio')}}"><img class="w-48" src="{{asset('imgs/icons/LogoWeb.png')}}" /></a></th>
-                    <th><span class="bg-red hidden sm:block">40 Park Ave, Brooklyn,<br>New York 70250</span></th>
+                    <th><a class="" href="{{route('inicio')}}"><img class="w-48" src="{{asset('imgs/icons/LogoWebv2.png')}}" /></a></th>
+                    <th><span class="bg-red hidden sm:block"></th>
            
-                    <th><span class="bg-red hidden sm:block">Open Hours <br> Mn - Fr: 9:00AM - 5:00PM</span></th>
+                    <th><span class="bg-red hidden sm:block"></th>
                     <th>
                         <div>
                             <img class="hidden  w-9   sm:inline-block" src="{{asset('imgs/icons/facebookLogo.png')}}" alt="">

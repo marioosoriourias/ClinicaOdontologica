@@ -25,9 +25,9 @@
             <div class="flex justify-around space-x-4 h-full ">
               
               <div class="clear-left"></div>
-              <a href="#inicio" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.inicio')}}</a>
+              <a href="#inicio" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl font-euro'>{{trans('multi-leng.inicio')}}</a>
               <a href="#nosotros" class='hover:bg-indigo-200  px-3 py-2 rounded-md  font-medium m-auto text-xl'>{{trans('multi-leng.nosotros')}}</a>
-              <a href="#servicios" class='hover:bg-ginbg-indigo-200 px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.servicios')}}</a>
+              <a href="#servicios" class='hover:bg-indigo-200 px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.servicios')}}</a>
               <a href="#clientes" class='hover:bg-indigo-200  px-3 py-2 rounded-md font-medium m-auto text-xl'>{{trans('multi-leng.clientes')}}</a>
               <a href="#ubicacion" class='hover:bg-indigo-200 px-3 py-2 rounded-md  font-medium m-auto text-xl'>{{trans('multi-leng.ubicacion')}}</a>
             </div>
@@ -51,11 +51,11 @@
         <a href="#servicios" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.servicios')}}</a>
         <a href="#clientes" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.clientes')}}</a>
         <a href="#ubicacion" class="border-solid border-2 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">{{trans('multi-leng.ubicacion')}}</a>
-        <div class="py-2">
+        {{-- <div class="py-2">
           <span class="py-1 pl-2 ">40 Park Ave, Brooklyn, New York 70250</span><br>
           <span class="py-1 pl-2">Call Us: 1-800-111-2222</span><br>
           <span class="py-1 pl-2">Open Hours: Mn - Fr: 9:00AM - 5:00PM</span>
-        </div>
+        </div> --}}
         
         <div>
             <img class="w-10 h-10 my-auto mx-1 inline-block" src="{{asset('imgs/icons/facebookLogo.png')}}" alt="">

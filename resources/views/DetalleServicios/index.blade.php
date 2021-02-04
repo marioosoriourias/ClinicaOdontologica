@@ -12,10 +12,11 @@
     
 </head>
 <body class="overscroll-auto">
-    <livewire:header>
-    
+    <livewire:header>  
+            
     <livewire:navigation-servicios>
-    
+
+    <livewire:informacion-top>
 
     @php
         $componente = $servicio[0];
