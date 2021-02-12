@@ -10,46 +10,50 @@ $(document).ready(function () {
   setTimeout(function () {
     $(".textoVideo2").fadeIn(1500);
   }, 3000);
-  $('.dots').children('.dot').click(function () {
-    var index = $(this).index() + 1;
-    currentSlide(index);
-  });
   /*-------------------------- ANIMACION DEL SLIDER -------------------------------*/
 
-  var slideIndex = 1;
-  showSlides(slideIndex);
+  var slides = document.getElementsByClassName("mySlides");
 
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
+  if (slides.length > 0) {
+    var plusSlides = function plusSlides(n) {
+      showSlides(slideIndex += n);
+    };
 
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
+    var currentSlide = function currentSlide(n) {
+      showSlides(slideIndex = n);
+    };
 
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    var showSlides = function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
 
-    if (n > slides.length) {
-      slideIndex = 1;
-    }
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
 
-    if (n < 1) {
-      slideIndex = slides.length;
-    }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
 
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
 
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-    }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
 
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    };
+
+    $('.dots').children('.dot').click(function () {
+      var index = $(this).index() + 1;
+      currentSlide(index);
+    });
+    var slideIndex = 1;
+    showSlides(slideIndex);
   }
 
   $(".servicio-desc").hoverIntent(function () {

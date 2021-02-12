@@ -11,14 +11,22 @@ $(document).ready(function() {
     },3000);
 
 
-    $('.dots').children('.dot').click(function(){
-        var index = $(this).index() + 1;
-        currentSlide(index);
-    });
+   
 
 
     
 /*-------------------------- ANIMACION DEL SLIDER -------------------------------*/
+
+
+var slides = document.getElementsByClassName("mySlides");
+
+if(slides.length > 0){
+
+  $('.dots').children('.dot').click(function(){
+    var index = $(this).index() + 1;
+    currentSlide(index);
+  });
+
     var slideIndex = 1;
     showSlides(slideIndex);
 
@@ -45,7 +53,7 @@ $(document).ready(function() {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
     }
-
+  }
 
 
     $(".servicio-desc").hoverIntent(function(){
