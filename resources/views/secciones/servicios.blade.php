@@ -14,8 +14,9 @@
     
 <div class=" grid sm:grid-cols-2  lg:grid-cols-3 gap-8" >
 
-    <div class="pb-7 w-8/12 sm:w-9/12 mx-auto">  
-        <div class="bg-blue-400 h-16  border-black border-2">  
+
+    <div class="pb-7 w-72 mx-auto">  
+        <div class="h-16 ">  
             <h1 class="text-2xl text-center">{{trans('multi-leng.ortodoncia')}}</h1>
         </div>                 
             <div class="servicio-desc h-72">
@@ -39,8 +40,8 @@
 
 
 
-    <div class="pb-7 w-8/12 sm:w-9/12 mx-auto">  
-        <div class="bg-blue-400 h-16  border-black border-2">  
+    <div class="pb-7 w-72 mx-auto">   
+        <div class="h-16 ">  
             <h1 class="text-2xl text-center">{{trans('multi-leng.implantes-dentales')}}</h1>
         </div>                 
             <div class="servicio-desc h-72">
@@ -61,8 +62,8 @@
     </div>
 
 
-    <div class="pb-7 w-8/12 sm:w-9/12 mx-auto">  
-        <div class="bg-blue-400 h-16  border-black border-2">  
+    <div class="pb-7 w-72 mx-auto">  
+        <div class="h-16">  
             <h1 class="text-2xl text-center">{{trans('multi-leng.tratamiento-temporomandibular')}}</h1>
         </div>                 
             <div class="servicio-desc h-72">
@@ -86,8 +87,8 @@
 
 
 
-    <div class="pb-7 w-8/12 sm:w-9/12 mx-auto">  
-        <div class="bg-blue-400 h-16  border-black border-2">  
+    <div class="pb-7 w-72 mx-auto">   
+        <div class="h-16">    
             <h1 class="text-2xl text-center">{{trans('multi-leng.endodoncia')}}</h1>
         </div>                 
             <div class="servicio-desc h-72">
@@ -108,8 +109,8 @@
     </div>
 
 
-    <div class="pb-7 w-8/12 sm:w-9/12 mx-auto">  
-        <div class="bg-blue-400 h-16  border-black border-2">  
+    <div class="pb-7 w-72 mx-auto">   
+        <div class="h-16">    
             <h1 class="text-2xl text-center">{{trans('multi-leng.odontologia-pediatrica')}}</h1>
         </div>                 
             <div class="servicio-desc h-72">
@@ -132,8 +133,8 @@
 
 
 
-    <div class="pb-7 w-8/12 sm:w-9/12 mx-auto">  
-        <div class="bg-blue-400 h-16  border-black border-2">  
+    <div class="pb-7 w-72 mx-auto">  
+        <div class="h-16">    
             <h1 class="text-2xl text-center">{{trans('multi-leng.odontologia-estetica')}}</h1>
         </div>                 
             <div class="servicio-desc h-72">
@@ -158,20 +159,18 @@
 
 
 
-
-
 <div class=" grid sm:grid-cols-2  lg:grid-cols-2 gap-8 mt-10" >
 
 
 
-    <div class="pb-7 sm:w-9/12 mx-auto w-72">  
-        <div class="bg-blue-400 h-16 w-72  border-black border-2 float-right">  
+    <div class="pb-7 w-72 mx-auto">  
+        <div class="h-16">   
             <h1 class="text-2xl text-center">{{trans('multi-leng.blanqueamiento-dental')}}</h1>
         </div>                 
-            <div class="servicio-desc h-72 w-72 float-right">
+            <div class="servicio-desc h-72">
                 <a href="{{route('servicios', 'blanqueamiento-dental')}}">
                 <img src="{{asset('imgs/icons/servicios/BLANQUEAMIENTO.jpg')}}" alt="" class="w-72">
-                <div class="sidebar-box w-72 "> 
+                <div class="sidebar-box "> 
                 <p class="text-justify hidden ">
                     @if (trans('multi-leng.idioma') == 'espanol')      
                     El procedimiento de blanqueamiento dental implica unos sencillos pasos siempre cuidando de proteger tus encías.
@@ -188,16 +187,16 @@
                 </a>
             </div>
     </div>
-    
 
-    <div class="pb-7 sm:w-9/12 mx-auto w-72">  
-        <div class="bg-blue-400 h-16 w-72  border-black border-2 float-left">  
+
+    <div class="pb-7 w-72 mx-auto">  
+        <div class="h-16">    
             <h1 class="text-2xl text-center">{{trans('multi-leng.rayos-x')}}</h1>
         </div>                 
-            <div class="servicio-desc h-72 w-72 float-left">
+            <div class="servicio-desc h-72">
                 <a href="{{route('servicios', 'rayos-x')}}">
                 <img src="{{asset('imgs/icons/servicios/RAYOSX.jpg')}}" alt="" class="w-72">
-                <div class="sidebar-box w-72 "> 
+                <div class="sidebar-box "> 
                 <p class="text-justify hidden ">
                     @if (trans('multi-leng.idioma') == 'espanol')      
                     Los rayos X ayudan a su dentista a ver lo que sucede debajo de la superficie de sus dientes y encías y a evaluar el nivel óseo y los conductos radiculares. Las radiografías intraorales son el tipo de radiografía más común que se toma en odontología. Dan un alto nivel de detalle del diente, hueso y tejidos de la boca
@@ -210,6 +209,7 @@
                 </a>
             </div>
     </div>
+
 
 </div>
 
